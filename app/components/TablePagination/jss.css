@@ -1,0 +1,19 @@
+.paginationRoot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 0px;
+}
+
+.paginationInput {
+  width: 64px;
+}
+
+.marginRight1 { /* means 8*1 */
+  margin-right: 8px;
+}
+
+.marginRight2 { /* means 8*2 */
+  margin-right: 16px;
+}

@@ -1,0 +1,37 @@
+.headerRow {
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #D8D8D8;
+  background-color: inherit;
+  color: inherit;
+}
+
+.dataRow {
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #D8D8D8;
+  background-color: inherit;
+  color: inherit;
+}
+
+.headerCell {
+  padding: 0px 0px;
+}
+
+.dataCell {
+  padding: 0px 0px;
+}
+
+/* i know naming is not consistent but this is easier for concatenation */
+/* maybe make all class names '-' style, not sure; in reality i would use JSS engine so no bother */
+.cellTextAlign-left {
+  text-align: left;
+}
+
+.cellTextAlign-center {
+  text-align: center;
+}
+
+.cellTextAlign-right {
+  text-align: right;
+}

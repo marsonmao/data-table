@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomePage /> should render and match the snapshot 1`] = `
+<div
+  style="width: 100%; height: 100%; padding: 64px; display: flex; flex-direction: column; align-items: center;"
+>
+  <div
+    style="display: flex; width: 800px;"
+  >
+    Choose color
+    <button
+      type="button"
+    >
+      Light (#F5F5F5)
+    </button>
+    <button
+      type="button"
+    >
+      Dark (#191919)
+    </button>
+  </div>
+  <div
+    style="display: flex; width: 800px;"
+  >
+    Fetch rows
+    <button
+      type="button"
+    >
+      Fetch
+    </button>
+  </div>
+  <div
+    style="width: 800px; height: 640px; overflow: auto;"
+  >
+    <table
+      class="tableRoot tableLightTheme"
+    >
+      <thead>
+        <tr
+          class="headerRow"
+        >
+          <th
+            class="headerCell cellTextAlign-left tableHeaderCell"
+            style="width: 96px;"
+          >
+            <button
+              type="button"
+            >
+              🡱
+            </button>
+            I.D.
+          </th>
+          <th
+            class="headerCell cellTextAlign-left tableHeaderCell"
+            style="width: 96px;"
+          >
+            <button
+              type="button"
+            >
+              ?
+            </button>
+            Name
+          </th>
+          <th
+            class="headerCell cellTextAlign-right tableHeaderCell"
+          >
+            <button
+              type="button"
+            >
+              ?
+            </button>
+            TAGS
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="dataRow"
+        >
+          <td
+            class="dataCell cellTextAlign-left tableDataCell"
+            colspan="65535"
+          >
+            EMPTY
+          </td>
+        </tr>
+        <tr
+          class="dataRow"
+        >
+          <td
+            class="dataCell cellTextAlign-left tableDataCell"
+            colspan="65535"
+          >
+            EMPTY
+          </td>
+        </tr>
+        <tr
+          class="dataRow"
+        >
+          <td
+            class="dataCell cellTextAlign-left tableDataCell"
+            colspan="65535"
+          >
+            EMPTY
+          </td>
+        </tr>
+        <tr
+          class="dataRow"
+        >
+          <td
+            class="dataCell cellTextAlign-left tableDataCell"
+            colspan="65535"
+          >
+            EMPTY
+          </td>
+        </tr>
+        <tr
+          class="dataRow"
+        >
+          <td
+            class="dataCell cellTextAlign-left tableDataCell"
+            colspan="65535"
+          >
+            EMPTY
+          </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td
+            colspan="65535"
+          >
+            <div
+              class="paginationRoot  tablePagination"
+            >
+              <div
+                class="marginRight1"
+              >
+                Rows per page 
+                <select>
+                  <option
+                    value="5"
+                  >
+                    5
+                  </option>
+                  <option
+                    value="10"
+                  >
+                    10
+                  </option>
+                  <option
+                    value="20"
+                  >
+                    20
+                  </option>
+                </select>
+              </div>
+              <div
+                class="marginRight1"
+              >
+                Displaying: 1-1, Total: 1
+              </div>
+              <div
+                class="marginRight1"
+              >
+                Page now
+                <input
+                  class="paginationInput"
+                  value="1"
+                />
+                Max: 1
+              </div>
+              <button
+                disabled=""
+                type="button"
+              >
+                &lt;&lt;
+              </button>
+              <button
+                disabled=""
+                type="button"
+              >
+                &lt;-
+              </button>
+              <button
+                disabled=""
+                type="button"
+              >
+                -&gt;
+              </button>
+              <button
+                disabled=""
+                type="button"
+              >
+                &gt;&gt;
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</div>
+`;

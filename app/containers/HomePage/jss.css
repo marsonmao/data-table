@@ -1,0 +1,25 @@
+.tableRoot {
+  width: 100%;
+}
+
+.tableHeaderCell {
+  padding: 8px 8px 8px 8px;
+}
+
+.tableDataCell {
+  padding: 8px 8px 8px 8px;
+}
+
+.tablePagination {
+  padding: 8px 8px 8px 8px;
+}
+
+.tableLightTheme {
+  background-color: #F5F5F5;
+  color: #191919;
+}
+
+.tableDarkTheme {
+  background-color: #191919;
+  color: #F5F5F5;
+}
